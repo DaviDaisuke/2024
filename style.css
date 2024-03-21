@@ -1,0 +1,14 @@
+body{
+    background-color:lightgray ;
+    font-size: 12;
+    font-family: arial;
+    color:black ;
+}
+
+img{
+    height: 200px;
+    width: 250px;
+}
+h1,h2{
+    text-align: center;
+}
