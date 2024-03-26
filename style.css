@@ -5,10 +5,30 @@ body{
     color:black ;
 }
 
-img{
+h1{
+    font-size: 30pt;
+}
+
+h2{
+    font-size: 20pt;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+.bem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ima{
     height: 200px;
     width: 250px;
+    padding: 15px;
 }
-h1,h2{
+
+p{
     text-align: center;
 }
