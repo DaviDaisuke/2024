@@ -1,5 +1,6 @@
 body{
-    background-color:lightgray ;
+    background: rgb(138,165,166);
+    background: linear-gradient(90deg, rgba(138,165,166,1) 13%, rgba(255,255,255,1) 99%);
     font-size: 12;
     font-family: arial;
     color:black ;
@@ -13,8 +14,18 @@ h2{
     font-size: 20pt;
 }
 
-h1,h2{
+h1,h2,h3,h4,p,ul,li,ol,a{
     text-align: center;
+
+}
+
+h1,h2,h3,h4,p,ul,li,ol{
+    color: black;
+}
+
+a{
+    color: blue;
+    text-decoration:none
 }
 
 .bem{
@@ -29,6 +40,8 @@ h1,h2{
     padding: 15px;
 }
 
-p{
+.cbum{
     text-align: center;
+    color: blue;
 }
+
